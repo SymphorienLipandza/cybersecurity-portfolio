@@ -1,0 +1,32 @@
+.experience-item {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.experience-item h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.experience-item p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.date {
+    font-weight: bold;
+    color: #58a6ff;
+}
+
+.experience-item ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.experience-item ul li {
+    margin-bottom: 5px;
+}

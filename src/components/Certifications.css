@@ -1,0 +1,29 @@
+.certifications-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.certification-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.certification-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.certification-item p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.date {
+    font-weight: bold;
+    color: #58a6ff;
+}
