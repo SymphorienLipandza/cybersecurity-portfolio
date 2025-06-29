@@ -9,9 +9,6 @@ This is my personal portfolio website, showcasing my experience, skills, and pro
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 

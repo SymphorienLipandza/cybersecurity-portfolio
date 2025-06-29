@@ -22,6 +22,12 @@
     font-size: 16px;
     margin-bottom: 5px;
 }
+.certification-image{
+    width: 105px;
+    height: 105px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
 
 .date {
     font-weight: bold;

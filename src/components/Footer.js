@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaMedium } from 'react-icons/fa';
 
 const Footer = () => {
     return (
@@ -21,8 +21,8 @@ const Footer = () => {
                         <a href="https://www.linkedin.com/in/symphorienlipandza" target="_blank">
                             <FaLinkedin size={24} color="#fff" />
                         </a>
-                        <a href="mailto:symphorienlipandza@gmail.com">
-                            <FaEnvelope size={24} color="#fff" />
+                        <a href="https://medium.com/@symphorienlipandza" target="_blank">
+                            <FaMedium size={24} color="#fff" />
                         </a>
                     </div>
                 </div>

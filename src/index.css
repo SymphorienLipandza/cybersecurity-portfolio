@@ -23,6 +23,13 @@ code {
     text-align: center;
 }
 
+.section h2 {
+    margin-top: 40px; /* Add margin at the top of the title */
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
 a {
     text-decoration: none;
     color: #58a6ff;
