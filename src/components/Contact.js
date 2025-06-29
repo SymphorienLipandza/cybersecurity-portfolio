@@ -7,14 +7,28 @@ const Contact = () => {
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
         
-        console.log('Form submitted:', { name, email, message });
-        alert('Thank you for your message!');
-        setName('');
-        setEmail('');
-        setMessage('');
+        const response = await fetch('https://formspree.io/f/xanjazkd', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ name, email, message }),
+        });
+        if (response.ok) {
+            console.log('Form submitted:', { name, email, message });
+            alert('Thank you for your message!');
+            setName('');
+            setEmail('');
+            setMessage('');
+        }
+        else {
+            console.error('Error submitting form:', response.statusText);
+            alert('There was an error submitting your message. Please try again later.');
+        }
+    
     };
 
     return (
