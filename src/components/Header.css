@@ -23,24 +23,24 @@ header .logo {
     text-decoration: none;
 }
 
-header ul {
+header .menu {
     list-style: none;
     display: flex;
     gap: 20px;
 }
 
-header ul li a {
+header .menu li a {
     text-decoration: none;
     color: #fff;
     font-weight: 500;
     transition: color 0.3s ease;
 }
 
-header ul li a:hover {
+header .menu li a:hover {
     color: #58a6ff;
 }
 
-.hamburger {
+header .hamburger {
     display: none;
     font-size: 24px;
     color: #fff;
@@ -48,7 +48,7 @@ header ul li a:hover {
 }
 
 @media (max-width: 768px) {
-    header ul {
+    header .menu {
         display: none;
         flex-direction: column;
         width: 100%;
@@ -60,19 +60,15 @@ header ul li a:hover {
         z-index: 100;
     }
 
-    header ul.open {
+    header .menu.open {
         display: flex;
     }
 
-    header ul li {
+    header .menu li {
         margin-bottom: 10px;
     }
 
-    header ul li a {
-        font-size: 18px;
-    }
-
-    .hamburger {
+    header .hamburger {
         display: block;
     }
 }
