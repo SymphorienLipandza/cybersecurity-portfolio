@@ -33,3 +33,22 @@
     font-weight: bold;
     color: #58a6ff;
 }
+@media screen and (max-width: 768px) {
+    .certifications-grid {
+        grid-template-columns: 1fr;
+    }
+    .certification-item {
+        margin-bottom: 20px;
+    }
+    .certification-image {
+        width: 80px;
+        height: 80px;
+    }
+    .certification-item h3 {
+        font-size: 18px;
+    }
+    .certification-item p {
+        font-size: 14px;
+    }
+    
+}

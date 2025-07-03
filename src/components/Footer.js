@@ -21,7 +21,7 @@ const Footer = () => {
                         <a href="https://www.linkedin.com/in/symphorienlipandza" target="_blank">
                             <FaLinkedin size={24} color="#fff" />
                         </a>
-                        <a href="https://medium.com/@symphorienlipandza" target="_blank">
+                        <a href="https://medium.com/@symphorienlipandza__95403" target="_blank">
                             <FaMedium size={24} color="#fff" />
                         </a>
                     </div>

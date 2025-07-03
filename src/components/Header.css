@@ -42,3 +42,29 @@ header ul li a {
 header ul li a:hover {
     color: #58a6ff;
 }
+
+@media screen and (max-width: 768px) {
+    header nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header ul {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    header ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    header ul li a {
+        font-size: 18px;
+    }
+    header .logo {
+        font-size: 20px;
+    }
+    header {
+        padding: 10px 0;
+    }
+}
