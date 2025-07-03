@@ -15,13 +15,14 @@ const Footer = () => {
                 <div className="footer-section">
                     <h3>Follow Me</h3>
                     <div className="social-icons">
-                        <a href="https://github.com/symphorienlipandza" target="_blank" rel="noreferrer">
+                        <a href="https://github.com/symphorienlipandza" target="_blank" rel="noopener noreferrer">
                             <FaGithub size={24} color="#fff" />
                         </a>
-                        <a href="https://www.linkedin.com/in/symphorienlipandza" target="_blank" rel="noreferrer">
+                        <a href="https://www.linkedin.com/in/symphorienlipandza" target="_blank" rel="noopener noreferrer">
                             <FaLinkedin size={24} color="#fff" />
                         </a>
-                        <a href="https://medium.com/@symphorienlipandza_95403" rel="noreferrer" target="_blank">
+
+                        <a href="https://medium.com/@symphorienlipandza_95403" target="_blank" rel="noopener noreferrer">
                             <FaMedium size={24} color="#fff" />
                         </a>
                     </div>
