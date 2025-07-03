@@ -39,10 +39,10 @@ const Contact = () => {
                 <a href="mailto:symphorienlipandza@gmail.com" className="contact-link">
                     <FaEnvelope className="contact-icon" /> symphorienlipandza@gmail.com
                 </a>
-                <a href="https://www.linkedin.com/in/symphorienlipandza" target="_blank" className="contact-link">
+                <a href="https://www.linkedin.com/in/symphorienlipandza" target="_blank" rel="noopener noreferrer" className="contact-link">
                     <FaLinkedin className="contact-icon" /> LinkedIn
                 </a>
-                <a href="https://github.com/symphorienlipandza" target="_blank" className="contact-link">
+                <a href="https://github.com/symphorienlipandza" target="_blank" rel="noopener noreferrer" className="contact-link">
                     <FaGithub className="contact-icon" /> GitHub
                 </a>
             </div>
