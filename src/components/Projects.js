@@ -1,6 +1,5 @@
 import React from 'react';
 import './Projects.css';
-import placeholder from '../assets/placehoder.png';
 import elderee from '../assets/elderee.jpg';
 import cyberForensics from '../assets/cyber-forensics.jpg';
 import bloodBank from '../assets/blood-bank.png';
