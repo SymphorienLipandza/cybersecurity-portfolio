@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { FaGithub, FaLinkedin, FaMedium } from 'react-icons/fa';
+import { FaEnvelope, FaGithub, FaLinkedin, FaEnvelope, FaMedium } from 'react-icons/fa';
 
 const Footer = () => {
     return (
@@ -8,9 +8,9 @@ const Footer = () => {
             <div className="footer-content">
                 <div className="footer-section">
                     <h3>Contact</h3>
-                    <p>Email: <a href="mailto:symphorienlipandza@gmail.com" rel="noopener noreferrer">symphorienlipandza@gmail.com</a></p>
-                    <p>LinkedIn: <a href="https://www.linkedin.com/in/symphorienlipandza" target="_blank" rel="noopener noreferrer">Symphorien Lipandza</a></p>
-                    <p>GitHub: <a href="https://github.com/symphorienlipandza" target="_blank" rel="noopener noreferrer">symphorienlipandza</a></p>
+                    <p>Email: <a href="mailto:symphorienlipandza@gmail.com"><FaEnvelope size={24} color="#fff" />symphorienlipandza@gmail.com</a></p>
+                    <p>LinkedIn: <a href="https://www.linkedin.com/in/symphorienlipandza" target="_blank" rel="noopener noreferrer"><FaLinkedin size={24} color="#fff" />Symphorien Lipandza</a></p>
+                    <p>GitHub: <a href="https://github.com/symphorienlipandza" target="_blank" rel="noopener noreferrer"><FaGithub size={24} color="#fff" />symphorienlipandza</a></p>
                 </div>
                 <div className="footer-section">
                     <h3>Follow Me</h3>
@@ -21,24 +21,10 @@ const Footer = () => {
                         <a href="https://www.linkedin.com/in/symphorienlipandza" target="_blank" rel="noopener noreferrer">
                             <FaLinkedin size={24} color="#fff" />
                         </a>
-
                         <a href="https://medium.com/@symphorienlipandza_95403" target="_blank" rel="noopener noreferrer">
                             <FaMedium size={24} color="#fff" />
                         </a>
                     </div>
-                </div>
-                <div className="footer-section">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/about">About</a></li>
-                        <li><a href="/experience">Experience</a></li>
-                        <li><a href="/education">Education</a></li>
-                        <li><a href="/skills">Skills</a></li>
-                        <li><a href="/projects">Projects</a></li>
-                        <li><a href="/certifications">Certifications</a></li>
-                        <li><a href="/contact">Contact</a></li>
-                    </ul>
                 </div>
             </div>
             <div className="footer-bottom">
