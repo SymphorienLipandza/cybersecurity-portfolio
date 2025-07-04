@@ -8,9 +8,9 @@ const Footer = () => {
             <div className="footer-content">
                 <div className="footer-section">
                     <h3>Contact</h3>
-                    <p>Email: <a href="mailto:symphorienlipandza@gmail.com"><FaEnvelope size={24} color="#fff" />symphorienlipandza@gmail.com</a></p>
-                    <p>LinkedIn: <a href="https://www.linkedin.com/in/symphorienlipandza" target="_blank" rel="noopener noreferrer"><FaLinkedin size={24} color="#fff" />Symphorien Lipandza</a></p>
-                    <p>GitHub: <a href="https://github.com/symphorienlipandza" target="_blank" rel="noopener noreferrer"><FaGithub size={24} color="#fff" />symphorienlipandza</a></p>
+                    <p><FaEnvelope size={24} color="#fff" /> Email: <a href="mailto:symphorienlipandza@gmail.com">symphorienlipandza@gmail.com</a></p>
+                    <p><FaLinkedin size={24} color="#fff" /> LinkedIn: <a href="https://www.linkedin.com/in/symphorienlipandza" target="_blank" rel="noopener noreferrer">Symphorien Lipandza</a></p>
+                    <p><FaGithub size={24} color="#fff" /> GitHub: <a href="https://github.com/symphorienlipandza" target="_blank" rel="noopener noreferrer">symphorienlipandza</a></p>
                 </div>
                 <div className="footer-section">
                     <h3>Follow Me</h3>
