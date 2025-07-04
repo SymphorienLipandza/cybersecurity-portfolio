@@ -25,6 +25,7 @@ header .logo {
 
 header .menu {
     list-style: none;
+    flex-direction: row;
     display: flex;
     gap: 20px;
 }
@@ -72,3 +73,4 @@ header .hamburger {
         display: block;
     }
 }
+
