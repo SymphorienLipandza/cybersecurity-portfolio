@@ -13,38 +13,43 @@ const Certifications = () => {
                 <div className="certification-item">
                     <img src={certification2} alt="Certification 1" className="certification-image" />
                     <h3>Oracle Certified OCI Foundation Associate</h3>
-                    <p>Oracle</p>
+                    <p>Issued by Oracle</p>
                     <p className="date">June 2023</p>
+                     <a href="https://www.efset.org/" target="_blank" rel="noopener noreferrer" className="certification-link">View Certificate</a>
                 </div>
                 <div className="certification-item">
                     <img src={certification3} alt="Certification 2" className="certification-image" />
                     <h3>Cybersecurity Engineering Virtual Internship Program</h3>
-                    <p>CFSS Cyber & Forensics Security Solutions</p>
+                    <p> Issued by CFSS Cyber & Forensics Security Solutions</p>
                     <p className="date">November 2023</p>
+                     <a href="https://www.efset.org/" target="_blank" rel="noopener noreferrer" className="certification-link">View Certificate</a>
                 </div>
                 <div className="certification-item">
                     <img src={certification1} alt="Certification 2" className="certification-image" />
                     <h3>CCNP: Core Networking</h3>
-                    <p>Cisco</p>
+                    <p>Issued by Cisco</p>
                     <p className="date">June 2025</p>
+                     <a href="https://www.efset.org/" target="_blank" rel="noopener noreferrer" className="certification-link">View Certificate</a>
                 </div>
                 <div className="certification-item">
                     <img src={certification1} alt="Certification 3" className="certification-image" />
                     <h3>CCNP: Advanced network</h3>
-                    <p>Cisco</p>
+                    <p>Issued by Cisco</p>
                     <p className="date">June 2025</p>
                 </div>
                 <div className="certification-item">
                     <img src={certification4} alt="Certification 3" className="certification-image" />
                     <h3>Certified Chaos Engineering</h3>
-                    <p>Gremlin</p>
+                    <p>Issued by Gremlin</p>
                     <p className="date">September 2023</p>
+                     <a href="https://www.efset.org/" target="_blank" rel="noopener noreferrer" className="certification-link">View Certificate</a>
                 </div>
                 <div className="certification-item">
                     <img src={certification1} alt="Certification 4" className="certification-image" />
                     <h3>Cisco Certified Network Associate </h3>
-                    <p>Cisco</p>
+                    <p>Issued by Cisco</p>
                     <p className="date">March 2019</p>
+                    <a href="https://www.efset.org/" target="_blank" rel="noopener noreferrer" className="certification-link">View Certificate</a>
                 </div>
             </div>
         </section>

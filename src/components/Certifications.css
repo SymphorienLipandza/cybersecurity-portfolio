@@ -29,6 +29,21 @@
     margin-bottom: 15px;
 }
 
+.certification-link {
+    background-color: #58a6ff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.certification-link:hover {
+    background-color: #3e8ef7;
+}
+
 .date {
     font-weight: bold;
     color: #58a6ff;
